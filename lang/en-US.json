@@ -1,0 +1,709 @@
+{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for Valerypopoff Ease.",
+	"text": 
+	{
+		"plugins": 
+		{
+			"valerypopoffease": 
+			{
+				"name": "Valerypopoff Ease",
+				"description": "Ease any Construct values with different easing effects.",
+				"help-url": "http://valerypopoff.ru/construct/ease-plugin/",
+				"properties": 
+				{
+				},
+				
+				"aceCategories": 
+				{
+					"general": "General",
+					"programming": "Programming"
+				},
+				
+
+				"conditions": 
+				{
+					"in-progress": 
+					{
+						"list-name": "In Progress",
+						"display-text": "{0}({...}) in progress",
+						"translated-name": "In Progress",
+						"description": "Check if easing is in progress (even if paused).",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that was passed to the Ease Action."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"in-progress-nonvar": 
+					{
+						"list-name": "In Progress",
+						"display-text": "{0} in progress",
+						"translated-name": "In Progress",
+						"description": "Check if easing is in progress (even if paused).",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"on-finished": 
+					{
+						"list-name": "On finished",
+						"display-text": "On {0}({...}) finished",
+						"translated-name": "On finished",
+						"description": "Triggered when easing is finished.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that was passed to the Ease Action."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"on-finished-nonvar": 
+					{
+						"list-name": "On finished",
+						"display-text": "On {0} finished",
+						"translated-name": "On finished",
+						"description": "Triggered when easing is finished.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"paused": 
+					{
+						"list-name": "Paused",
+						"display-text": "{0}({...}) is paused",
+						"translated-name": "Paused",
+						"description": "Check if the easing is paused.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that was passed to the Ease Action."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"paused-nonvar": 
+					{
+						"list-name": "Paused",
+						"display-text": "{0} is paused",
+						"translated-name": "Paused",
+						"description": "Check if the easing is paused.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"on-tick": 
+					{
+						"list-name": "On ticked",
+						"display-text": "On {0}({...}) ticked",
+						"translated-name": "On ticked",
+						"description": "Triggered when easing is ticked.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that was passed to the Ease Action."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"on-tick-nonvar": 
+					{
+						"list-name": "On ticked",
+						"display-text": "On {0} ticked",
+						"translated-name": "On ticked",
+						"description": "Triggered when easing is ticked.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					}
+				},
+				"actions": 
+				{
+					"ease": 
+					{
+						"list-name": "Ease",
+						"display-text": "Ease {0}({...}) from {1} to {2} in {3} sec. with effect: {4}. Bounce: {5}",
+						"translated-name": "Ease",
+						"description": "Start easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"start-value": 
+							{ 
+								"name": "Start value"
+								,"desc": "Start value."
+								,"items": 
+								{
+								}
+							},
+							"end-value": 
+							{ 
+								"name": "End value"
+								,"desc": "End value."
+								,"items": 
+								{
+								}
+							},
+							"duration": 
+							{ 
+								"name": "Duration"
+								,"desc": "Easing duration (in seconds)."
+								,"items": 
+								{
+								}
+							},
+							"easing-effect": 
+							{ 
+								"name": "Easing effect"
+								,"desc": "Easing effect."
+								,"items": 
+								{
+									"linear": "Linear",
+									"quadratic-in": "Quadratic in",
+									"quadratic-out": "Quadratic out",
+									"quadratic-in-out": "Quadratic in/out",
+									"cubic-in": "Cubic in",
+									"cubic-out": "Cubic out",
+									"cubic-in-out": "Cubic in/out",
+									"quartic-in": "Quartic in",
+									"quartic-out": "Quartic out",
+									"quartic-in-out": "Quartic in/out",
+									"quintic-in": "Quintic in",
+									"quintic-out": "Quintic out",
+									"quintic-in-out": "Quintic in/out",
+									"sinusoidal-in": "Sinusoidal in",
+									"sinusoidal-out": "Sinusoidal out",
+									"sinusoidal-in-out": "Sinusoidal in/out",
+									"exponential-in": "Exponential in",
+									"exponential-out": "Exponential out",
+									"exponential-in-out": "Exponential in/out",
+									"circular-in": "Circular in",
+									"circular-out": "Circular out",
+									"circular-in-out": "Circular in/out",
+									"custom-js": "Custom JS easing function",
+									"custom-construct": "Custom Construct easing function"
+								}
+							},
+							"bounce-back": 
+							{ 
+								"name": "Bounce back"
+								,"desc": "Bounce back effect."
+								,"items": 
+								{
+									"disable": "Disable",
+									"enble": "Enable"
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that will be accessible from triggers, conditions and expressions."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"ease-nonvar": 
+					{
+						"list-name": "Ease",
+						"display-text": "Ease {0}({6},{7},{8},{9},{10}) from {1} to {2} in {3} sec. with effect: {4}. Bounce: {5}",
+						"translated-name": "Ease",
+						"description": "Start easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"start-value": 
+							{ 
+								"name": "Start value"
+								,"desc": "Start value."
+								,"items": 
+								{
+								}
+							},
+							"end-value": 
+							{ 
+								"name": "End value"
+								,"desc": "End value."
+								,"items": 
+								{
+								}
+							},
+							"duration": 
+							{ 
+								"name": "Duration"
+								,"desc": "Easing duration (in seconds)."
+								,"items": 
+								{
+								}
+							},
+							"easing-effect": 
+							{ 
+								"name": "Easing effect"
+								,"desc": "Easing effect."
+								,"items": 
+								{
+									"linear": "Linear",
+									"quadratic-in": "Quadratic in",
+									"quadratic-out": "Quadratic out",
+									"quadratic-in-out": "Quadratic in/out",
+									"cubic-in": "Cubic in",
+									"cubic-out": "Cubic out",
+									"cubic-in-out": "Cubic in/out",
+									"quartic-in": "Quartic in",
+									"quartic-out": "Quartic out",
+									"quartic-in-out": "Quartic in/out",
+									"quintic-in": "Quintic in",
+									"quintic-out": "Quintic out",
+									"quintic-in-out": "Quintic in/out",
+									"sinusoidal-in": "Sinusoidal in",
+									"sinusoidal-out": "Sinusoidal out",
+									"sinusoidal-in-out": "Sinusoidal in/out",
+									"exponential-in": "Exponential in",
+									"exponential-out": "Exponential out",
+									"exponential-in-out": "Exponential in/out",
+									"circular-in": "Circular in",
+									"circular-out": "Circular out",
+									"circular-in-out": "Circular in/out",
+									"custom-js": "Custom JS easing function",
+									"custom-construct": "Custom Construct easing function"
+								}
+							},
+							"bounce-back": 
+							{ 
+								"name": "Bounce back"
+								,"desc": "Bounce back effect."
+								,"items": 
+								{
+									"disable": "Disable",
+									"enble": "Enable"
+								}
+							},
+							"function-parameter0": 
+							{ 
+								"name": "Ease parameter 0"
+								,"desc": "Parameter that will be accessible from expressions."
+								,"items": 
+								{
+								}
+							},
+							"function-parameter1": 
+							{ 
+								"name": "Ease parameter 1"
+								,"desc": "Parameter that will be accessible from expressions."
+								,"items": 
+								{
+								}
+							},
+							"function-parameter2": 
+							{ 
+								"name": "Ease parameter 2"
+								,"desc": "Parameter that will be accessible from expressions."
+								,"items": 
+								{
+								}
+							},
+							"function-parameter3": 
+							{ 
+								"name": "Ease parameter 3"
+								,"desc": "Parameter that will be accessible from expressions."
+								,"items": 
+								{
+								}
+							},
+							"function-parameter4": 
+							{ 
+								"name": "Ease parameter 4"
+								,"desc": "Parameter that will be accessible from expressions."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"set-custom-easing-js": 
+					{
+						"list-name": "Set custom JS easing function",
+						"display-text": "Set {0} as a custom easing function",
+						"translated-name": "Set custom JS easing function",
+						"description": "Set custom JS easing function.",
+						"params": 
+						{
+							"code": 
+							{ 
+								"name": "JS code"
+								,"desc": "Provide JS code for the easing function body. Assume that the function gets 4 parameters: 'curr_time', 'start_value', 'delta' (change in value) and 'duration'. Function must return a calculated current value."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"set-custom-easing-construct": 
+					{
+						"list-name": "Set custom Construct easing function",
+						"display-text": "Set {0} as a custom easing function",
+						"translated-name": "Set custom Construct easing function",
+						"description": "Set custom Construct easing function.",
+						"params": 
+						{
+							"code": 
+							{ 
+								"name": "Construct function name"
+								,"desc": "Provide the name of a Construct function that returns a calculated current value based on 4 passed parameters: current time, start value, change in value (delta), duration."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"pause": 
+					{
+						"list-name": "Pause",
+						"display-text": "Pause {0}({...})",
+						"translated-name": "Pause",
+						"description": "Pause easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that was passed to the Ease Action."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"pause-nonvar": 
+					{
+						"list-name": "Pause",
+						"display-text": "Pause {0}",
+						"translated-name": "Pause",
+						"description": "Pause easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"resume": 
+					{
+						"list-name": "Resume",
+						"display-text": "Resume {0}({...})",
+						"translated-name": "Resume",
+						"description": "Resume easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that was passed to the Ease Action."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"resume-nonvar": 
+					{
+						"list-name": "Resume",
+						"display-text": "Resume {0}",
+						"translated-name": "Resume",
+						"description": "Resume easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"terminate": 
+					{
+						"list-name": "Terminate",
+						"display-text": "Terminate {0}({...})",
+						"translated-name": "Terminate",
+						"description": "Terminate easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"function-parameters": 
+							{ 
+								"name": "Ease parameter {n}"
+								,"desc": "Parameter that was passed to the Ease Action."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"terminate-nonvar": 
+					{
+						"list-name": "Terminate",
+						"display-text": "Terminate {0}",
+						"translated-name": "Terminate",
+						"description": "Terminate easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					}
+				},
+				"expressions": 
+				{
+					"get-progress": 
+					{
+						"list-name": "Time Progress of any easing",
+						"translated-name": "Time Progress of any easing",
+						"description": "Get the time progress of any easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"get-value": 
+					{
+						"list-name": "Value of any easing",
+						"translated-name": "Value of any easing",
+						"description": "Get the current value of any easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"get-parameter": 
+					{
+						"list-name": "Parameter of any easing",
+						"translated-name": "Parameter of any easing",
+						"description": "Get the parameter of any easing.",
+						"params": 
+						{
+							"function-name": 
+							{ 
+								"name": "Ease tag"
+								,"desc": "Ease tag."
+								,"items": 
+								{
+								}
+							},
+							"parameter-index": 
+							{ 
+								"name": "Parameter index"
+								,"desc": "Parameter index."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"get-finished-parameter": 
+					{
+						"list-name": "Finised Parameter",
+						"translated-name": "Finised Parameter",
+						"description": "Get the parameter of a finished easing.",
+						"params": 
+						{
+							"num": 
+							{ 
+								"name": "Parameter index"
+								,"desc": "Parameter index."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"get-ticked-parameter": 
+					{
+						"list-name": "Ticked Parameter",
+						"translated-name": "Ticked Parameter",
+						"description": "Get the parameter of a ticked easing.",
+						"params": 
+						{
+							"num": 
+							{ 
+								"name": "Parameter index"
+								,"desc": "Parameter index."
+								,"items": 
+								{
+								}
+							}
+						}
+					},
+					"get-ticked-value": 
+					{
+						"list-name": "Ticked Value",
+						"translated-name": "Ticked Value",
+						"description": "Get the value of a ticked easing.",
+						"params": 
+						{
+						}
+					},
+					"get-ticked-progress": 
+					{
+						"list-name": "Ticked Time Progress",
+						"translated-name": "Ticked Time Progress",
+						"description": "Get the time progress of a ticked easing.",
+						"params": 
+						{
+						}
+					}
+				}
+
+
+			}
+		}
+	}
+}

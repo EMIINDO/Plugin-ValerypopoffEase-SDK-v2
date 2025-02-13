@@ -1,0 +1,703 @@
+{
+"general":
+{
+	"conditions":
+	[
+		{  
+			"id": "in-progress",
+			"c2id": 0,
+			"isDeprecated": true,
+			"scriptName": "InProgress",
+			"expressionName": "InProgress",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "in-progress-nonvar",
+			"scriptName": "InProgressNonVar",
+			"expressionName": "InProgressNonVar",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "on-finished",
+			"c2id": 1,
+			"isDeprecated": true,
+			"isTrigger": true,
+			"scriptName": "OnFinished",
+			"expressionName": "OnFinished",
+			"highlight": true,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "on-finished-nonvar",
+			"isTrigger": true,
+			"scriptName": "OnFinishedNonvar",
+			"expressionName": "OnFinishedNonvar",
+			"highlight": true,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "paused",
+			"c2id": 2,
+			"isDeprecated": true,
+			"scriptName": "Paused",
+			"expressionName": "Paused",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "paused-nonvar",
+			"scriptName": "PausedNonvar",
+			"expressionName": "PausedNonvar",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "on-tick",
+			"c2id": 3,
+			"isDeprecated": true,
+			"isTrigger": true,
+			"scriptName": "OnTicked",
+			"expressionName": "OnTicked",
+			"highlight": true,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "on-tick-nonvar",
+			"isTrigger": true,
+			"scriptName": "OnTickedNonvar",
+			"expressionName": "OnTickedNonvar",
+			"highlight": true,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		}
+	],
+	"actions":
+	[
+		{  
+			"id": "ease",
+			"c2id": 0,
+			"isDeprecated": true,
+			"scriptName": "Ease",
+			"expressionName": "Ease",
+			"highlight": true,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "start-value",
+					"type": "number"
+					, "initialValue": "0" 
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "end-value",
+					"type": "number"
+					, "initialValue": "100" 
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "duration",
+					"type": "number"
+					, "initialValue": "1" 
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "easing-effect",
+					"type": "combo"
+					, "initialValue": "linear" 
+					, "items": 
+					[
+						"linear",
+						"quadratic-in",
+						"quadratic-out",
+						"quadratic-in-out",
+						"cubic-in",
+						"cubic-out",
+						"cubic-in-out",
+						"quartic-in",
+						"quartic-out",
+						"quartic-in-out",
+						"quintic-in",
+						"quintic-out",
+						"quintic-in-out",
+						"sinusoidal-in",
+						"sinusoidal-out",
+						"sinusoidal-in-out",
+						"exponential-in",
+						"exponential-out",
+						"exponential-in-out",
+						"circular-in",
+						"circular-out",
+						"circular-in-out",
+						"custom-js",
+						"custom-construct"
+					]
+				},
+				{ 
+					"id": "bounce-back",
+					"type": "combo"
+					, "initialValue": "disable" 
+					, "items": 
+					[
+						"disable",
+						"enble"
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "ease-nonvar",
+			"scriptName": "EaseNonvar",
+			"expressionName": "EaseNonvar",
+			"highlight": true,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "start-value",
+					"type": "number"
+					, "initialValue": "0" 
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "end-value",
+					"type": "number"
+					, "initialValue": "100" 
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "duration",
+					"type": "number"
+					, "initialValue": "1" 
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "easing-effect",
+					"type": "combo"
+					, "initialValue": "linear" 
+					, "items": 
+					[
+						"linear",
+						"quadratic-in",
+						"quadratic-out",
+						"quadratic-in-out",
+						"cubic-in",
+						"cubic-out",
+						"cubic-in-out",
+						"quartic-in",
+						"quartic-out",
+						"quartic-in-out",
+						"quintic-in",
+						"quintic-out",
+						"quintic-in-out",
+						"sinusoidal-in",
+						"sinusoidal-out",
+						"sinusoidal-in-out",
+						"exponential-in",
+						"exponential-out",
+						"exponential-in-out",
+						"circular-in",
+						"circular-out",
+						"circular-in-out",
+						"custom-js",
+						"custom-construct"
+					]
+				},
+				{ 
+					"id": "bounce-back",
+					"type": "combo"
+					, "initialValue": "disable" 
+					, "items": 
+					[
+						"disable",
+						"enble"
+					]
+				},
+				{ 
+					"id": "function-parameter0",
+					"type": "any"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameter1",
+					"type": "any"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameter2",
+					"type": "any"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameter3",
+					"type": "any"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameter4",
+					"type": "any"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "pause",
+			"c2id": 3,
+			"isDeprecated": true,
+			"scriptName": "Pause",
+			"expressionName": "Pause",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "pause-nonvar",
+			"scriptName": "PauseNonvar",
+			"expressionName": "PauseNonvar",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "resume",
+			"c2id": 4,
+			"isDeprecated": true,
+			"scriptName": "Resume",
+			"expressionName": "Resume",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "resume-nonvar",
+			"scriptName": "ResumeNonvar",
+			"expressionName": "ResumeNonvar",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "terminate",
+			"c2id": 5,
+			"isDeprecated": true,
+			"scriptName": "Terminate",
+			"expressionName": "Terminate",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "function-parameters",
+					"type": "variadic"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "terminate-nonvar",
+			"scriptName": "TerminateNonvar",
+			"expressionName": "TerminateNonvar",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		}
+	],
+	"expressions":
+	[
+		{  
+			"id": "get-progress",
+			"c2id": 0,
+			"isVariadicParameters": true,
+			"scriptName": "TimeProgress",
+			"expressionName": "TimeProgress",
+			"highlight": false,
+			"returnType": "number",
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "get-value",
+			"c2id": 1,
+			"isVariadicParameters": true,
+			"scriptName": "CurrentValue",
+			"expressionName": "CurrentValue",
+			"highlight": false,
+			"returnType": "number",
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "get-parameter",
+			"scriptName": "Parameter",
+			"expressionName": "Parameter",
+			"highlight": false,
+			"returnType": "any",
+
+			"params": 
+			[
+				{ 
+					"id": "function-name",
+					"type": "string"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "parameter-index",
+					"type": "number"
+					, "initialValue": "0" 
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "get-finished-parameter",
+			"c2id": 2,
+			"scriptName": "FinishedParam",
+			"expressionName": "FinishedParam",
+			"highlight": true,
+			"returnType": "any",
+
+			"params": 
+			[
+				{ 
+					"id": "num",
+					"type": "number"
+					, "initialValue": "0" 
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "get-ticked-parameter",
+			"c2id": 3,
+			"scriptName": "TickedParam",
+			"expressionName": "TickedParam",
+			"highlight": true,
+			"returnType": "any",
+
+			"params": 
+			[
+				{ 
+					"id": "num",
+					"type": "number"
+					, "initialValue": "0" 
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "get-ticked-value",
+			"c2id": 4,
+			"scriptName": "TickedValue",
+			"expressionName": "TickedValue",
+			"highlight": false,
+			"returnType": "number",
+
+			"params": 
+			[
+			]				
+		},
+		{  
+			"id": "get-ticked-progress",
+			"c2id": 5,
+			"scriptName": "TickedTimeProgress",
+			"expressionName": "TickedTimeProgress",
+			"highlight": false,
+			"returnType": "number",
+
+			"params": 
+			[
+			]				
+		}
+	]
+},
+"programming":
+{
+	"actions":
+	[
+		{  
+			"id": "set-custom-easing-js",
+			"c2id": 1,
+			"scriptName": "SetCustomJS",
+			"expressionName": "SetCustomJS",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "code",
+					"type": "string"
+					, "initialValue": "\"return delta * curr_time / duration + start_value\"" 
+					, "items": 
+					[
+					]
+				}
+			]				
+		},
+		{  
+			"id": "set-custom-easing-construct",
+			"c2id": 2,
+			"scriptName": "SetCustomConstruct",
+			"expressionName": "SetCustomConstruct",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "code",
+					"type": "string"
+					, "items": 
+					[
+					]
+				}
+			]				
+		}
+	]
+}
+
+}
